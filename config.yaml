@@ -1,0 +1,28 @@
+project_name: "coffee-leaf-disease-demo"
+
+train_csv: "train_classes.csv"
+test_csv: "test_classes.csv"
+
+train_image_dir: "coffee-leaf-diseases/train/images"
+test_image_dir: "coffee-leaf-diseases/test/images"
+
+id_col: "id"
+label_cols:
+  - miner
+  - rust
+  - phoma
+
+output_dir: "outputs"
+
+model_name: "efficientnet_b0"
+img_size: 224
+batch_size: 4
+epochs: 10
+learning_rate: 0.0003
+weight_decay: 0.0001
+num_workers: 0
+random_state: 42
+
+val_size: 0.15
+use_pos_weight: true
+threshold: 0.5

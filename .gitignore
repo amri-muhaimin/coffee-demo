@@ -1,0 +1,30 @@
+cat > .gitignore << 'EOF'
+# Dataset
+coffee-leaf-diseases/
+coffee-leaf-diseases.rar
+*.rar
+*.zip
+*.7z
+
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Jupyter / logs
+.ipynb_checkpoints/
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+EOF

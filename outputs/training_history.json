@@ -1,0 +1,272 @@
+[
+  {
+    "micro_f1": 0.9704918032786886,
+    "macro_f1": 0.9700088731144633,
+    "samples_f1": 0.7491228070175439,
+    "hamming_loss": 0.015789473684210527,
+    "mAP_macro": 0.9907478933243471,
+    "mAP_micro": 0.9882899011069455,
+    "per_label": {
+      "miner": {
+        "threshold": 0.71,
+        "f1": 0.9795918367346939,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.32,
+        "f1": 0.9565217391304348,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.5,
+        "f1": 0.9739130434782609,
+        "positive_count": 58
+      }
+    },
+    "epoch": 1,
+    "train_loss": 0.5044660620031304
+  },
+  {
+    "micro_f1": 0.9736842105263158,
+    "macro_f1": 0.9718543671005472,
+    "samples_f1": 0.76140350877193,
+    "hamming_loss": 0.014035087719298246,
+    "mAP_macro": 0.9929308678335493,
+    "mAP_micro": 0.9956063931074146,
+    "per_label": {
+      "miner": {
+        "threshold": 0.76,
+        "f1": 0.9263157894736842,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.6,
+        "f1": 0.989247311827957,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.44,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 2,
+    "train_loss": 0.27973613725995927
+  },
+  {
+    "micro_f1": 1.0,
+    "macro_f1": 1.0,
+    "samples_f1": 0.7736842105263158,
+    "hamming_loss": 0.0,
+    "mAP_macro": 1.0,
+    "mAP_micro": 1.0,
+    "per_label": {
+      "miner": {
+        "threshold": 0.87,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.68,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 3,
+    "train_loss": 0.1856915957976451
+  },
+  {
+    "micro_f1": 1.0,
+    "macro_f1": 1.0,
+    "samples_f1": 0.7736842105263158,
+    "hamming_loss": 0.0,
+    "mAP_macro": 1.0,
+    "mAP_micro": 0.9999159407831381,
+    "per_label": {
+      "miner": {
+        "threshold": 0.86,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.2,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.22,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 4,
+    "train_loss": 0.08728098824661792
+  },
+  {
+    "micro_f1": 1.0,
+    "macro_f1": 1.0,
+    "samples_f1": 0.7736842105263158,
+    "hamming_loss": 0.0,
+    "mAP_macro": 1.0,
+    "mAP_micro": 1.0,
+    "per_label": {
+      "miner": {
+        "threshold": 0.23,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.77,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 5,
+    "train_loss": 0.08674686930235821
+  },
+  {
+    "micro_f1": 0.9902912621359223,
+    "macro_f1": 0.9909832791188724,
+    "samples_f1": 0.7684210526315789,
+    "hamming_loss": 0.005263157894736842,
+    "mAP_macro": 0.9994529304755226,
+    "mAP_micro": 0.9994679027216692,
+    "per_label": {
+      "miner": {
+        "threshold": 0.61,
+        "f1": 0.98989898989899,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.1,
+        "f1": 0.9830508474576272,
+        "positive_count": 58
+      }
+    },
+    "epoch": 6,
+    "train_loss": 0.08698024194285994
+  },
+  {
+    "micro_f1": 0.990228013029316,
+    "macro_f1": 0.98989898989899,
+    "samples_f1": 0.7614035087719297,
+    "hamming_loss": 0.005263157894736842,
+    "mAP_macro": 0.9988907947398514,
+    "mAP_micro": 0.9993053833490404,
+    "per_label": {
+      "miner": {
+        "threshold": 0.9,
+        "f1": 0.9696969696969697,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.11,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.88,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 7,
+    "train_loss": 0.10693088739497594
+  },
+  {
+    "micro_f1": 1.0,
+    "macro_f1": 1.0,
+    "samples_f1": 0.7736842105263158,
+    "hamming_loss": 0.0,
+    "mAP_macro": 1.0,
+    "mAP_micro": 1.0,
+    "per_label": {
+      "miner": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.2,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.11,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 8,
+    "train_loss": 0.05785843420282117
+  },
+  {
+    "micro_f1": 1.0,
+    "macro_f1": 1.0,
+    "samples_f1": 0.7736842105263158,
+    "hamming_loss": 0.0,
+    "mAP_macro": 1.0,
+    "mAP_micro": 1.0,
+    "per_label": {
+      "miner": {
+        "threshold": 0.79,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.23,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 9,
+    "train_loss": 0.019133153603261607
+  },
+  {
+    "micro_f1": 1.0,
+    "macro_f1": 1.0,
+    "samples_f1": 0.7736842105263158,
+    "hamming_loss": 0.0,
+    "mAP_macro": 1.0,
+    "mAP_micro": 1.0,
+    "per_label": {
+      "miner": {
+        "threshold": 0.69,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 10,
+    "train_loss": 0.014848902882128732
+  }
+]
