@@ -6,7 +6,6 @@ coffee-leaf-diseases.rar
 *.zip
 *.7z
 
-
 # Python cache
 __pycache__/
 *.pyc

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "64",
+    "target_label_for_xai": "miner",
+    "probabilities": {
+      "miner": 0.9973658919334412,
+      "rust": 0.04969082400202751,
+      "phoma": 4.8074442020151764e-05
+    },
+    "recommendations": [
+      {
+        "label": "miner",
+        "nama_penyakit": "Leaf miner / serangan pengorok daun",
+        "probabilitas": 0.9974,
+        "threshold": 0.1,
+        "rekomendasi": [
+          "Pisahkan atau pangkas daun yang menunjukkan gejala berat untuk mengurangi sumber serangan.",
+          "Lakukan sanitasi kebun dan pengamatan berkala pada daun muda.",
+          "Gunakan perangkap atau pengendalian hayati bila tersedia dan sesuai kondisi lapangan.",
+          "Konsultasikan penggunaan insektisida selektif kepada penyuluh pertanian setempat bila serangan meluas."
+        ]
+      }
+    ],
+    "gradcam_file": "outputs_hybrid\\xai_examples\\gradcam_64_miner.png"
+  },
+  {
+    "id": "65",
+    "target_label_for_xai": "miner",
+    "probabilities": {
+      "miner": 0.9993964433670044,
+      "rust": 0.014909437857568264,
+      "phoma": 9.64575374382548e-05
+    },
+    "recommendations": [
+      {
+        "label": "miner",
+        "nama_penyakit": "Leaf miner / serangan pengorok daun",
+        "probabilitas": 0.9994,
+        "threshold": 0.1,
+        "rekomendasi": [
+          "Pisahkan atau pangkas daun yang menunjukkan gejala berat untuk mengurangi sumber serangan.",
+          "Lakukan sanitasi kebun dan pengamatan berkala pada daun muda.",
+          "Gunakan perangkap atau pengendalian hayati bila tersedia dan sesuai kondisi lapangan.",
+          "Konsultasikan penggunaan insektisida selektif kepada penyuluh pertanian setempat bila serangan meluas."
+        ]
+      }
+    ],
+    "gradcam_file": "outputs_hybrid\\xai_examples\\gradcam_65_miner.png"
+  },
+  {
+    "id": "66",
+    "target_label_for_xai": "miner",
+    "probabilities": {
+      "miner": 0.9989423155784607,
+      "rust": 0.0009469047072343528,
+      "phoma": 8.704526408109814e-05
+    },
+    "recommendations": [
+      {
+        "label": "miner",
+        "nama_penyakit": "Leaf miner / serangan pengorok daun",
+        "probabilitas": 0.9989,
+        "threshold": 0.1,
+        "rekomendasi": [
+          "Pisahkan atau pangkas daun yang menunjukkan gejala berat untuk mengurangi sumber serangan.",
+          "Lakukan sanitasi kebun dan pengamatan berkala pada daun muda.",
+          "Gunakan perangkap atau pengendalian hayati bila tersedia dan sesuai kondisi lapangan.",
+          "Konsultasikan penggunaan insektisida selektif kepada penyuluh pertanian setempat bila serangan meluas."
+        ]
+      }
+    ],
+    "gradcam_file": "outputs_hybrid\\xai_examples\\gradcam_66_miner.png"
+  },
+  {
+    "id": "67",
+    "target_label_for_xai": "miner",
+    "probabilities": {
+      "miner": 0.9992585778236389,
+      "rust": 0.0007656734669581056,
+      "phoma": 0.00011455774074420333
+    },
+    "recommendations": [
+      {
+        "label": "miner",
+        "nama_penyakit": "Leaf miner / serangan pengorok daun",
+        "probabilitas": 0.9993,
+        "threshold": 0.1,
+        "rekomendasi": [
+          "Pisahkan atau pangkas daun yang menunjukkan gejala berat untuk mengurangi sumber serangan.",
+          "Lakukan sanitasi kebun dan pengamatan berkala pada daun muda.",
+          "Gunakan perangkap atau pengendalian hayati bila tersedia dan sesuai kondisi lapangan.",
+          "Konsultasikan penggunaan insektisida selektif kepada penyuluh pertanian setempat bila serangan meluas."
+        ]
+      }
+    ],
+    "gradcam_file": "outputs_hybrid\\xai_examples\\gradcam_67_miner.png"
+  },
+  {
+    "id": "68",
+    "target_label_for_xai": "miner",
+    "probabilities": {
+      "miner": 0.999606192111969,
+      "rust": 0.0008927235612645745,
+      "phoma": 0.00017234875122085214
+    },
+    "recommendations": [
+      {
+        "label": "miner",
+        "nama_penyakit": "Leaf miner / serangan pengorok daun",
+        "probabilitas": 0.9996,
+        "threshold": 0.1,
+        "rekomendasi": [
+          "Pisahkan atau pangkas daun yang menunjukkan gejala berat untuk mengurangi sumber serangan.",
+          "Lakukan sanitasi kebun dan pengamatan berkala pada daun muda.",
+          "Gunakan perangkap atau pengendalian hayati bila tersedia dan sesuai kondisi lapangan.",
+          "Konsultasikan penggunaan insektisida selektif kepada penyuluh pertanian setempat bila serangan meluas."
+        ]
+      }
+    ],
+    "gradcam_file": "outputs_hybrid\\xai_examples\\gradcam_68_miner.png"
+  },
+  {
+    "id": "69",
+    "target_label_for_xai": "miner",
+    "probabilities": {
+      "miner": 0.9997298121452332,
+      "rust": 0.001594482222571969,
+      "phoma": 0.0002318592305528
+    },
+    "recommendations": [
+      {
+        "label": "miner",
+        "nama_penyakit": "Leaf miner / serangan pengorok daun",
+        "probabilitas": 0.9997,
+        "threshold": 0.1,
+        "rekomendasi": [
+          "Pisahkan atau pangkas daun yang menunjukkan gejala berat untuk mengurangi sumber serangan.",
+          "Lakukan sanitasi kebun dan pengamatan berkala pada daun muda.",
+          "Gunakan perangkap atau pengendalian hayati bila tersedia dan sesuai kondisi lapangan.",
+          "Konsultasikan penggunaan insektisida selektif kepada penyuluh pertanian setempat bila serangan meluas."
+        ]
+      }
+    ],
+    "gradcam_file": "outputs_hybrid\\xai_examples\\gradcam_69_miner.png"
+  }
+]

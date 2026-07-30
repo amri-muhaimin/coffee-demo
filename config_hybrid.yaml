@@ -1,0 +1,45 @@
+project_name: "coffee-leaf-disease-demo"
+
+# Data
+train_csv: "train_classes.csv"
+test_csv: "test_classes.csv"
+train_image_dir: "coffee-leaf-diseases/train/images"
+test_image_dir: "coffee-leaf-diseases/test/images"
+id_col: "id"
+label_cols:
+  - miner
+  - rust
+  - phoma
+
+# Output
+output_dir: "outputs_hybrid"
+model_name: "hybrid_effnet_b0_transformer_xai_rules"
+
+# Image
+img_size: 224
+
+# Training
+batch_size: 4
+epochs: 10
+learning_rate: 0.0003
+weight_decay: 0.0001
+num_workers: 0
+random_state: 42
+val_size: 0.15
+use_pos_weight: true
+grad_clip: 1.0
+
+# CNN backbone
+pretrained: true
+freeze_cnn: false
+
+# Transformer ringan untuk GPU kecil seperti NVIDIA MX330
+d_model: 128
+nhead: 4
+transformer_layers: 2
+dim_feedforward: 256
+dropout: 0.1
+max_tokens: 197
+
+# Explainable AI
+explain_samples: 6

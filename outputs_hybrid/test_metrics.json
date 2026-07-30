@@ -1,0 +1,25 @@
+{
+  "micro_f1": 0.9749582637729549,
+  "macro_f1": 0.9757187257187256,
+  "samples_f1": 0.6983333333333335,
+  "hamming_loss": 0.0125,
+  "mAP_macro": 0.9979401922606468,
+  "mAP_micro": 0.9982891203105632,
+  "per_label": {
+    "miner": {
+      "threshold": 0.1,
+      "f1": 0.9621212121212122,
+      "positive_count": 128
+    },
+    "rust": {
+      "threshold": 0.1,
+      "f1": 0.965034965034965,
+      "positive_count": 72
+    },
+    "phoma": {
+      "threshold": 0.1,
+      "f1": 1.0,
+      "positive_count": 96
+    }
+  }
+}

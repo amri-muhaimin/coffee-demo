@@ -1,0 +1,272 @@
+[
+  {
+    "micro_f1": 0.9646302250803859,
+    "macro_f1": 0.9658297439310836,
+    "samples_f1": 0.7491228070175439,
+    "hamming_loss": 0.01929824561403509,
+    "mAP_macro": 0.9848178985193624,
+    "mAP_micro": 0.9825280389544175,
+    "per_label": {
+      "miner": {
+        "threshold": 0.31,
+        "f1": 0.9504950495049505,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.52,
+        "f1": 0.989010989010989,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.49,
+        "f1": 0.957983193277311,
+        "positive_count": 58
+      }
+    },
+    "epoch": 1,
+    "train_loss": 0.5636939037094398
+  },
+  {
+    "micro_f1": 0.9483870967741935,
+    "macro_f1": 0.9488480059817755,
+    "samples_f1": 0.7368421052631579,
+    "hamming_loss": 0.028070175438596492,
+    "mAP_macro": 0.9719504822856521,
+    "mAP_micro": 0.9652517097213452,
+    "per_label": {
+      "miner": {
+        "threshold": 0.67,
+        "f1": 0.9247311827956989,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.19,
+        "f1": 0.9787234042553191,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.1,
+        "f1": 0.943089430894309,
+        "positive_count": 58
+      }
+    },
+    "epoch": 2,
+    "train_loss": 0.3952695774260673
+  },
+  {
+    "micro_f1": 0.9675324675324676,
+    "macro_f1": 0.9680437546416928,
+    "samples_f1": 0.7491228070175437,
+    "hamming_loss": 0.017543859649122806,
+    "mAP_macro": 0.9902357163547104,
+    "mAP_micro": 0.9801451727797805,
+    "per_label": {
+      "miner": {
+        "threshold": 0.1,
+        "f1": 0.9484536082474226,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 0.989010989010989,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.59,
+        "f1": 0.9666666666666667,
+        "positive_count": 58
+      }
+    },
+    "epoch": 3,
+    "train_loss": 0.2700600921185895
+  },
+  {
+    "micro_f1": 0.9934640522875817,
+    "macro_f1": 0.9925925925925926,
+    "samples_f1": 0.7701754385964912,
+    "hamming_loss": 0.0035087719298245615,
+    "mAP_macro": 1.0,
+    "mAP_micro": 0.9997921330775243,
+    "per_label": {
+      "miner": {
+        "threshold": 0.17,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 0.9777777777777777,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 4,
+    "train_loss": 0.2173556609582987
+  },
+  {
+    "micro_f1": 1.0,
+    "macro_f1": 1.0,
+    "samples_f1": 0.7736842105263158,
+    "hamming_loss": 0.0,
+    "mAP_macro": 1.0,
+    "mAP_micro": 1.0,
+    "per_label": {
+      "miner": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 5,
+    "train_loss": 0.19209976731762757
+  },
+  {
+    "micro_f1": 1.0,
+    "macro_f1": 1.0,
+    "samples_f1": 0.7736842105263158,
+    "hamming_loss": 0.0,
+    "mAP_macro": 1.0,
+    "mAP_micro": 0.9999999999999999,
+    "per_label": {
+      "miner": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 6,
+    "train_loss": 0.14027930493358362
+  },
+  {
+    "micro_f1": 1.0,
+    "macro_f1": 1.0,
+    "samples_f1": 0.7736842105263158,
+    "hamming_loss": 0.0,
+    "mAP_macro": 1.0,
+    "mAP_micro": 1.0,
+    "per_label": {
+      "miner": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 7,
+    "train_loss": 0.14978729220559225
+  },
+  {
+    "micro_f1": 0.987012987012987,
+    "macro_f1": 0.9875475613974404,
+    "samples_f1": 0.7631578947368421,
+    "hamming_loss": 0.007017543859649123,
+    "mAP_macro": 1.0,
+    "mAP_micro": 0.9993336737724277,
+    "per_label": {
+      "miner": {
+        "threshold": 0.1,
+        "f1": 0.9795918367346939,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.11,
+        "f1": 0.9830508474576272,
+        "positive_count": 58
+      }
+    },
+    "epoch": 8,
+    "train_loss": 0.08548357485385429
+  },
+  {
+    "micro_f1": 1.0,
+    "macro_f1": 1.0,
+    "samples_f1": 0.7736842105263158,
+    "hamming_loss": 0.0,
+    "mAP_macro": 1.0,
+    "mAP_micro": 0.9999999999999998,
+    "per_label": {
+      "miner": {
+        "threshold": 0.13,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 9,
+    "train_loss": 0.15592358934591988
+  },
+  {
+    "micro_f1": 1.0,
+    "macro_f1": 1.0,
+    "samples_f1": 0.7736842105263158,
+    "hamming_loss": 0.0,
+    "mAP_macro": 1.0,
+    "mAP_micro": 1.0,
+    "per_label": {
+      "miner": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 50
+      },
+      "rust": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 46
+      },
+      "phoma": {
+        "threshold": 0.1,
+        "f1": 1.0,
+        "positive_count": 58
+      }
+    },
+    "epoch": 10,
+    "train_loss": 0.10540340761473398
+  }
+]
