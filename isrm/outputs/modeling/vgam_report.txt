@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+       miner       0.96      0.80      0.87       128
+        rust       0.76      0.83      0.79        72
+       phoma       0.91      0.88      0.89        96
+
+   micro avg       0.89      0.83      0.86       296
+   macro avg       0.88      0.84      0.85       296
+weighted avg       0.90      0.83      0.86       296
+ samples avg       0.59      0.59      0.59       296

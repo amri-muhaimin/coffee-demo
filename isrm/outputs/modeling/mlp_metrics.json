@@ -1,0 +1,32 @@
+{
+  "label_cols": [
+    "miner",
+    "rust",
+    "phoma"
+  ],
+  "thresholds": {
+    "miner": 0.41,
+    "rust": 0.31,
+    "phoma": 0.85
+  },
+  "validation_metrics": {
+    "micro_f1": 0.9550827423167849,
+    "macro_f1": 0.9544202993843339,
+    "samples_f1": 0.7457180500658761,
+    "hamming_loss": 0.025032938076416336,
+    "subset_accuracy": 0.924901185770751,
+    "macro_auprc": 0.9876279550310848,
+    "micro_auprc": 0.9898514161977408
+  },
+  "test_metrics": {
+    "micro_f1": 0.868421052631579,
+    "macro_f1": 0.8644504253056885,
+    "samples_f1": 0.6225,
+    "hamming_loss": 0.06666666666666667,
+    "subset_accuracy": 0.85,
+    "macro_auprc": 0.9529275261133855,
+    "micro_auprc": 0.9558615255456362
+  },
+  "pca_components": 12,
+  "pca_explained_variance": 0.41568630933761597
+}

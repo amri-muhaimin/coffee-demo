@@ -1,0 +1,10 @@
+{
+  "alpha_mlp": 1.0,
+  "alpha_vgam": 0.0,
+  "validation_macro_f1": 0.9544202993843339,
+  "thresholds": {
+    "miner": 0.41,
+    "rust": 0.31,
+    "phoma": 0.85
+  }
+}
